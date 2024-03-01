@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleryt</title>
+    <style>
+        body{
+            background-color: burlywood;
+            text-align: center;
+        }
+    .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-gap: 10px;   
+  }
+  .images img {
+    width: 300px;
+    height: 300px;
+    display: block;
+  }
+    </style>
+</head>
+<body>
+    <h1> Our Gallery </h1>
+   <p> Our great and dedicated photgraphers from all around the world show case three of their
+    top favorite picture of nature.
+   </p> 
+   <div class="images">
+   <a href="https://www.nature.com/" target="_blank"> <img src="forest.jpg" alt="a beautiful forest in maui"> </a>
+   <a href="https://besjournals.onlinelibrary.wiley.com/journal/25758314" target="_blank" ><img src="Nature one.jpg" alt=" a splendid capture of nature"> </a>
+    <a href="https://besjournals.onlinelibrary.wiley.com/journal/25758314" target="_blank"> <img src="autumn.jpg" alt=" a touch of autumn"> </a>
+   </div>
+</body>
+</html>
